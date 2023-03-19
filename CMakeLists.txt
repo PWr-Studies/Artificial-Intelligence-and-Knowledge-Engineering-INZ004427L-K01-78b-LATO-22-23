@@ -63,9 +63,9 @@ include(cmake/SourcesAndHeaders.cmake)
 
 if(${PROJECT_NAME}_BUILD_EXECUTABLE)
   add_executable(${PROJECT_NAME} ${exe_sources})
-
+  message("Hi!!")
   if(${PROJECT_NAME}_VERBOSE_OUTPUT)
-    verbose_message("Found the following sources:")
+    verbose_message("Found the following sources/exe:")
     foreach(source IN LISTS exe_sources)
       verbose_message("* ${source}")
     endforeach()

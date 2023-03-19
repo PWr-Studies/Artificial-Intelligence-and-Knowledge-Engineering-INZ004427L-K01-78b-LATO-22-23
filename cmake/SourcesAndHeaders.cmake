@@ -9,6 +9,7 @@ set(exe_sources
 
 set(headers
     include/project/tmp.hpp
+    include/ai_labs
 )
 
 set(test_sources
